@@ -19,4 +19,9 @@ end
 
 # The last line of every code snippet is also evaluated as output (in addition to
 # any figures and printing output generated previously).
-sqrt.(squares)
+
+println("\n11-element Array{Float64,1}:")
+
+for s in squares
+  println(" ",sqrt.(s))
+end
